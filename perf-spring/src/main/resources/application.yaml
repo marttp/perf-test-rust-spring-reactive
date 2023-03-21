@@ -1,0 +1,5 @@
+spring:
+  r2dbc:
+    url: r2dbc:postgres://${db.host:localhost}:5432/perf_test?useSSL=false
+    username: postgres
+    password: ${db.password:passw0rd}
